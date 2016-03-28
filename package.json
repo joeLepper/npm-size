@@ -1,0 +1,23 @@
+{
+  "name": "how-big",
+  "version": "1.0.0",
+  "description": "A utility to determine the size of a package when bundled",
+  "main": "index.js",
+  "scripts": {
+    "presize": "rm -rf tmp",
+    "size": "node index.js"
+    "postsize": "rm -rf tmp",
+  },
+  "author": "Joe Lepper",
+  "license": "MIT",
+  "dependencies": {
+    "browserify": "^13.0.0",
+    "debug": "^2.2.0",
+    "express": "^4.13.4",
+    "guid": "0.0.12",
+    "pretty-bytes": "^3.0.1",
+    "replacestream": "^4.0.0",
+    "webpack": "^1.12.14",
+    "yargs": "^4.3.2"
+  }
+}
