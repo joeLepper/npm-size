@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "presize": "rm -rf tmp",
-    "size": "node index.js"
-    "postsize": "rm -rf tmp",
+    "size": "node index.js",
+    "postsize": "rm -rf tmp"
   },
   "author": "Joe Lepper",
   "license": "MIT",
